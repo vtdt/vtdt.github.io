@@ -7,33 +7,9 @@ body{
 }
 
 
-
-
-.discord .tooltiptext {
-  transition: all 0.5s;
-  opacity: 0;
-  width: 120px;
-  bottom: 20%;
-  left: 39%;
-
-  margin-left: -60px;
-  margin-bottom: 20px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  position: absolute;
-  z-index: 1; 
+.discord:hover {
+  cursor: pointer;
 }
-
-.discord:hover .tooltiptext {
-  opacity: 1;
-}
-
-
-
 
 .container{
   display: flex;
@@ -43,16 +19,16 @@ body{
   justify-content: space-around;
 }
 
-.asideaboutme{
+.mainaboutme  {
   transition: all 0.5s;
   display: grid;
   grid-row: 1/span 5;
   grid-column: 2/span 1;
   position: absolute;
-left: 20%;
+  left: 20%;
   justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-  font-size: 60%;
+  font-size: 65%;
   color: #dfdfdf;
   text-shadow: 0 0 3px #a3a3a3;
   animation: text_glow 1.5s linear infinite;
@@ -67,7 +43,7 @@ left: 20%;
 
   justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-  font-size: 60%;
+  font-size: 65%;
   color: #dfdfdf;
   text-shadow: 0 0 3px #a3a3a3;
   animation: text_glow 1.5s linear infinite;
@@ -75,7 +51,7 @@ left: 20%;
 }
 .text{
   position: relative;
-  left: 15%;
+  left: 5%;
   transition: all 0.5s;
   display: grid;
   grid-row: 1/span 2;
@@ -138,9 +114,9 @@ left: 20%;
   display: grid;
   position: absolute;
   width: min(60%, 852px);
-  height: min(60%, 450px);
+  height: min(70%, 500px);
   min-width: 425px;
-  min-height: 412px;
+  min-height: 500px;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns:  repeat(3, 1fr);
   background: transparent;
@@ -148,7 +124,7 @@ left: 20%;
   border-radius: 7px;
 }
 
-.card:hover .text, .card:hover .github, .card:hover .steam, .card:hover .discord, .card:hover .asideaboutme, .card:hover .asideaboutproject, .card:hover .icontext{
+.card:hover .text, .card:hover .github, .card:hover .steam, .card:hover .discord, .card:hover .mainaboutme, .card:hover .asideaboutproject, .card:hover .icontext{
   opacity: 1;
 }
 .card:hover{
@@ -161,9 +137,9 @@ left: 20%;
   position: relative;
   transition: all 0.5s;
   width: min(60%, 852px);
-  height: min(60%, 450px);
+  height: min(70%, 500px);
   min-width: 425px;
-  min-height: 412px;
+  min-height: 500px;
   background-image: url("https://media.tenor.com/Dhdb4kV9OI0AAAAC/purple-pfp.gif");
   background-size: 100% 105%;
   border-radius: 7px;
