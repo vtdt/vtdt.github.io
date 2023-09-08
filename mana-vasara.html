@@ -4,50 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mana c+ vasara</title>
-    <style>
-        body{
-            margin: 0;
-            border: 0;       
-        }
-        #container {
-            display: flex;
-            justify-content: center;
-            justify-items: center;
-            align-content: center;
-            align-items: center;
-            
-            height: 100vh;
-            width: 100vw;
-        }
-        #fucker {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-            height: 40%;
-            width: 40%;
-            border: 2px solid black;
-            border-radius: 10px;
-        }
-        #oao{
-            position: absolute;
-            top: 30%;
-        }
-        .text{
-            margin: 10px;
-            color: darkblue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"></a>
 </head>
 <body>
     <div id="container">
         <div id="fucker">
             <h1 id = "oao">MAIN THEME</h1>
-            <div class ="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ea eum eius culpa totam odit placeat, nostrum vitae laboriosam dolore neque explicabo nam quidem accusantium nemo sapiente excepturi similique fuga?</div>
-            <div class ="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, corrupti laborum sed libero, magni suscipit eum repellat officia error nam maxime quam excepturi quas accusantium molestias aliquid accusamus. Explicabo, porro.</div>
+            <h2 id = "month_id"></h2>
+            <div class ="text" id = "text1"></div>
+            <div class ="text" id = "text2"></div>
+            <h1 class="buttons" id = "button_left" onclick="previous_page()">←</h1>
+            <h1 class="buttons" id = "button_right" onclick="next_page()">→</h1>
         </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
