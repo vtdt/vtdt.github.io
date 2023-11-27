@@ -34,6 +34,7 @@ function next_page(){
         
         button_right.style.cursor = "none";
         button_right.style.opacity = 0;
+        button_left.style.opacity = 1;
         id = 2;
     }
     check_main(id);
@@ -46,6 +47,7 @@ function previous_page(){
     if(id < 0){
         button_left.style.cursor = "none";
         button_left.style.opacity = 0;
+        buttpn_right.sryle.opacity = 1;
         id = 0;
     }
     check_main(id);
