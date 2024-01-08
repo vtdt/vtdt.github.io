@@ -1,5 +1,5 @@
 function redirect(){
-location.href = 'https://lmoboy.github.io';
+location.href = 'https://vtdt.lv;
 }
 
 
