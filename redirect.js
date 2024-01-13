@@ -1,5 +1,5 @@
 function redirect(){
-location.href = 'https://vtdt.lv;
+location.href = 'https://vtdt.lv';
 }
 
 
